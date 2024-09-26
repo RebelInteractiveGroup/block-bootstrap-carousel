@@ -249,11 +249,11 @@ registerBlockType( 'create-block/carousel', {
         </div>
         { controls == true ? (
         <div className="controls">
-          <button className="carousel-control-prev" data-bs-target={ `#carousel-${ id }` } type="button" data-slide="prev">
+          <button className="carousel-control-prev" data-bs-target={ `#carousel-${ id }` } type="button" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="sr-only">Previous</span>
           </button>
-          <button className="carousel-control-next" data-bs-target={ `#carousel-${ id }` } type="button" data-slide="next">
+          <button className="carousel-control-next" data-bs-target={ `#carousel-${ id }` } type="button" data-bs-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="sr-only">Next</span>
           </button>
