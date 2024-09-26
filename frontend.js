@@ -10,7 +10,7 @@ jQuery( document ).ready(function() {
     thisCarousel = jQuery(this).closest('.wp-block-create-block-carousel');
 
     jQuery(this).closest('.wp-block-create-block-carousel').find('.carousel-item').each(function() {
-      thisIndicators.append('<li data-target="#' + thisCarousel.attr('id') + '" data-slide-to="' + jQuery(this).index() + '"></li>')
+      thisIndicators.append('<li data-target="#' + thisCarousel.attr('id') + '" data-bs-slide-to="' + jQuery(this).index() + '"></li>')
     });
 
     // Make the first carousel indicator active
