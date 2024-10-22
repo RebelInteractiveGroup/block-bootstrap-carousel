@@ -115,7 +115,7 @@ registerBlockType( 'create-block/carousel', {
     setAttributes( { id: clientId } )
 
     return (
-      <div id={ `carousel-${ clientId }` } className={ `carousel slide` } data-ride="carousel">
+      <div id={ `carousel-${ clientId }` } className={ `carousel slide` } data-bs-ride="carousel">
       <InspectorControls>
           <PanelBody title="Slider Configuration" icon="" initialOpen={true}>
             <ToggleControl
